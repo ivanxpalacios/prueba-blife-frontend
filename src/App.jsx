@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import imagenBanner from './img/banner-distribuye.avif'
 
 export default function App() {
 
@@ -60,7 +61,7 @@ export default function App() {
       >
         <div className="w-full h-full lg:h-full lg:w-[50%] lg:rounded-r-3xl overflow-hidden z-10 relative max-h-[600px]">
           <img
-            src="src/img/banner-distribuye.avif"
+            src={imagenBanner}
             alt="imagen banner"
             className='object-cover absolute h-full w-full'
           />
